@@ -1,14 +1,22 @@
 import CenterImage from '../components/centerImage';
-
+import SocialNetwork from '../components/socialNetwork';
+import Footer from '../components/footer';
 export default function Home() {
 
   return (
-    <body className='bg-black text-center'>
-      <div className="container mx-auto">
-        <div className="columns-1 text-center">
-          <CenterImage />
+    <>
+      <body>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col text-center">
+              <CenterImage />
+            </div>         
+          </div>
+          <SocialNetwork />
         </div>
-      </div>
-    </body>
+        <Footer />
+      </body>
+    </>
+    
   );
 }

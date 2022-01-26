@@ -21,6 +21,6 @@ export default function CenterImage() {
         return () => resetTimeout();
     },[index]);
     return (
-        <Image src={images[index]} alt="imagen de prueba" width={500} height={500}/>
+        <Image src={images[index]} alt="Hongkong" width={700} height={700}/>
     )
 }
