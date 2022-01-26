@@ -7,12 +7,12 @@ export default function Home() {
     <>
       <body>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col text-center">
-              <CenterImage />
-            </div>         
+          <div className="row justify-content-center"> 
+            <CenterImage />  
           </div>
-          <SocialNetwork />
+          <div className="row justify-content-center"> 
+            <SocialNetwork />
+          </div>   
         </div>
         <Footer />
       </body>
